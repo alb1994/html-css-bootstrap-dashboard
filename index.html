@@ -13,50 +13,80 @@
 <body>
     <div class="maxi-continer vh vw">
         <header><!-- inizio header-->
-            <div class="container-fluid h60px blue">
-                <div class="row">
-                    <div class="col">
-                        <div class="content">
-                            prova
+            <div class="container-fluid h60px">
+                <div class="row row align-items-center h100">                  
+                    <div class="column w60px"><!-- inizio Logo -->
+                        <div class="block">
+                            <img src="./img/mobile-logo.png" alt="" class="w100">
                         </div>
-                    </div>
+                        <div class="none">
+                            <img src="./img/logo.svg" alt="" class="w100">
+                        </div>
+                    </div><!--fin Logo -->
+                    <div class="column w100-mob-60"><!-- inizio search-bar-->
+                        <div class="search-bar d-flex align-items-center">
+                            <i class="fa-solid fa-magnifying-glass fa-xs" style="color: #00040a;"></i>
+                            <input type="text" placeholder="Prova a cercare: Lezioni di Laravel">
+                        </div>
+                    </div><!-- fine search-bar-->
+                    <div class="column w60px"><!-- inizio icone-->
+                        <div class="block">
+                            <ul class="margin-0 w100">
+                                <li class=" paddingleft-10"><a href="#"><i class="fa-solid fa-bell fa-xs" style="color: #d6c243;"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="none">
+                            <ul class="margin-0">
+                                <li class="in-block paddingleft-10"><a href="#"><i class="fa-solid fa-list fa-xs"></i></a></li>
+                                <li class="in-block paddingleft-10"><a href="#"><i class="fa-solid fa-question fa-xs"></i></a></li>
+                                <li class="in-block paddingleft-10"><a href="#"><i class="fa-solid fa-ellipsis-vertical fa-xs"></i></a></li>
+                                <li class="in-block paddingleft-10"><a href="#"><i class="fa-solid fa-bell fa-xs" style="color: #d6c243;"></i></a></li>
+                            </ul>
+                        </div>
+                    </div><!-- fine icone--> 
                 </div>
             </div>
         </header><!--fine header-->
         <main><!-- inizio main-->
             <div class="container-fluid">
                 <div class="row h100-">
-                    <div class="sidebar w60px">
+                    <div class="sidebar w60px"><!-- inizio sidebar -->
                         <div class="between">
-                            <div class="start block">
+                            <div class="margin-0 block"><!--- inizio mobile-->
                                 <ul>
                                     <li><a href="#"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a></li>
                                     <li><a href="#"><i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i></a></li>
                                     <li><a href="#"><i class="fa-solid fa-signal" style="color: #ffffff;"></i></a></li>
                                 </ul>
                             </div>
-                            <div class="end block">
+                            <div class="margin-0 block">
                                 <ul>
                                     <li><a href="#"><i class="fa-solid fa-gear" style="color: #ffffff;"></i></a></li>
                                 </ul>
-                            </div>
-                            <div class="start none">
+                            </div><!--- fine mobile-->
+                            <div class="margin-0 none"><!--inizio desktop-->
                                 <ul>
-                                    <li><a href="#"><i class="fa-solid fa-house fa-xs" style="color: #ffffff;"></i><label class="white m-l-10">Home</label></a></li>
-                                    <li><a href="#"><i class="fa-solid fa-chart-simple fa-xs" style="color: #ffffff;"></i><label class="white m-l-10">Stats</label></a></li>
-                                    <li><a href="#"><i class="fa-solid fa-signal fa-xs" style="color: #ffffff;"></i><label class="white m-l-10">Signals</label></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-house fa-xs" style="color: #ffffff;"></i><span class="white m-l-10">Home</span></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-chart-simple fa-xs" style="color: #ffffff;"></i><span class="white m-l-10">Stats</span></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-signal fa-xs" style="color: #ffffff;"></i><span class="white m-l-10">Signals</span></a></li>
                                 </ul>
                             </div>
-                            <div class="end none">
+                            <div class="margin-0 none">
                                 <ul>
-                                    <li><a href="#"><i class="fa-solid fa-gear fa-xs" style="color: #ffffff;"></i><label class="white m-l-10">Admin</label></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-gear fa-xs" style="color: #ffffff;"></i><span class="white m-l-10">Admin</span></a></li>
                                 </ul>
+                            </div><!--fine desktop-->
+                        </div>
+                    </div><!-- fine sidebar -->
+                    <div class="main red w100-mob"><!-- inizio main centrale -->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div>
+                                    
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="main red w100-mob">
-                        
-                    </div>
+                    </div><!-- inizio main centrale -->
                 </div>
             </div>
         </main><!--fine main-->

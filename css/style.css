@@ -41,9 +41,16 @@
 .h100{
     height: 100%;
 }
+.w100{
+    width: 100%;
+}
 .w100-mob{
     width: calc(100vw - 60px);
 }
+.w100-mob-60{
+    width: calc(100vw - 120px);
+}
+/* altro */
 .between{
     height: 100%;
     justify-content:space-between;
@@ -64,7 +71,7 @@ li{
 ul{
     padding-left: 0;   
 }
-.end, .start{
+.margin-0{
     margin: 0 auto;
 }
 .m-l-10{
@@ -75,6 +82,22 @@ ul{
 }
 .none{
     display: none;
+}
+.flex{
+    display: flex;
+}
+.in-block{
+    display: inline-block;
+}
+.paddingleft-10{
+    padding-left: 10px;
+}
+.search-bar, input{
+    background-color: rgb(194, 191, 191);
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
 }
 /* desktop */
 
@@ -91,4 +114,7 @@ ul{
     .w100-mob{
         width: calc(100vw - 120px);
     }
+    .w100-mob-60{
+    width: calc(100vw - 240px);
+}
 }
