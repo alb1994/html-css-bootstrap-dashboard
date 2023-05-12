@@ -36,7 +36,7 @@
     width: 60px;
 }
 .h100-{
-    height: calc(100vh - 50PX);
+    height: calc(100vh - 60PX);
 }
 .h100{
     height: 100%;
@@ -49,6 +49,12 @@
 }
 .w100-mob-60{
     width: calc(100vw - 120px);
+}
+.h270px{
+    height: 270px;
+}
+.h100-330{
+    height: calc(100vh - 330px);
 }
 /* altro */
 .between{
@@ -115,6 +121,12 @@ ul{
         width: calc(100vw - 120px);
     }
     .w100-mob-60{
-    width: calc(100vw - 240px);
-}
+        width: calc(100vw - 240px);
+    }
+    .h270px{
+        height: 90px;
+    }
+    .h100-330{
+        height: calc(100vh - 150px);
+    }
 }
